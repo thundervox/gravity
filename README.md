@@ -77,7 +77,7 @@ func main() {
 Gravity was supported by a couple of open-source projects. The inspiration for closures comes from the elegant <a href="http://www.lua.org" target="_blank">Lua</a> programming language; specifically from the document <a href="http://www.cs.tufts.edu/~nr/cs257/archive/roberto-ierusalimschy/closures-draft.pdf">Closures in Lua</a>. For fibers, upvalues handling and some parts of the garbage collector, my gratitude goes to <a href="http://journal.stuffwithstuff.com" target="_blank">Bob Nystrom</a> and his excellent <a href="https://github.com/munificent/wren">Wren</a> programming language. A very special thanks should also go to my friend **Andrea Donetti** who helped me debugging and testing various aspects of the language.
 
 ## 取扱説明書
-The <a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a> page is a guide for downloading and compiling the language. There is also a more extensive <a href="http://gravity-lang.org">language documentation</a>. Official [wiki](https://github.com/marcobambini/gravity/wiki) is used to collect related projects and tools.
+<a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a> ページでは Gravity 言語に関するダウンロードとコンパイル方法について解説しています。 There is also a more extensive <a href="http://gravity-lang.org">language documentation</a>. Official [wiki](https://github.com/marcobambini/gravity/wiki) is used to collect related projects and tools.
 
 ## Gravity の採用事例
 * Gravity は Creo (https://creolabs.com) に組み込まれているコア言語です。
@@ -87,7 +87,7 @@ The <a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a
 Seems like a good idea to make a group chat for people to discuss Gravity.<br> [![Join the chat at https://gitter.im/gravity-lang/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gravity-lang/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## 寄贈
-Contributions to Gravity are welcomed and encouraged!<br>
+Gravity 関連の寄贈は歓迎と奨励しています！<br>
 詳細情報は公式資料である [CONTRIBUTING](CONTRIBUTING.md) ファイルに記載されています。
 * <a href="https://github.com/marcobambini/gravity/issues/new">議論をはじめる</a>:
 	* 援助が必要なとき
