@@ -6,7 +6,7 @@
 
 <p>with 日本語化プロジェクト</p>
 
-**Gravity** はパワフル、動的型付け、軽量、組み込み可能なプログラミング言語です。Ｃ言語で記述されていますが外部依存性はありません (stdlib を除く)。現代的な <a href="https://github.com/apple/swift">Swift</a> 風のシンタックスを備えたクラスベースの並列スクリプト言語です
+**Gravity** はパワフル、動的型付け、軽量、組み込み可能なプログラミング言語です。Ｃ言語で記述されていますが外部依存性はありません (stdlib を除く)。 <a href="https://github.com/apple/swift">Swift</a> 風の現代的なシンタックスを採用したクラスベースの並列スクリプト言語です
 
 **Gravity** は手続き型プログラミング、オブジェクト指向プログラミング、関数型プログラミング、およびデータ駆動プログラミングをサポートしています。
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
@@ -36,7 +36,7 @@ class Vector {
 
 	// インスタンスメソッド (組み込み String 変換のオーバーライド)
 	func String() {
-	        // string interpolation support
+	        // 文字列補間のサポート
 		return "[\(x),\(y),\(z)]";
 	}
 }
@@ -51,26 +51,26 @@ func main() {
 	// cvector オブジェクトで + 関数の呼び出し
 	var v3 = v1 + v2;
 	
-	// returns string "[1,2,3] + [4,5,6] = [5,7,9]"
+	// 文字列 "[1,2,3] + [4,5,6] = [5,7,9]" を返す
     	return "\(v1) + \(v2) = \(v3)";
  }
  ```
 
-## Features
+## 主要機能
 * マルチパスコンパイラ
 * 動的型付け
 * クラスと継承
 * 高階関数とクラス
 * レキシカルスコープ
 * コルーチン (via fibers)
-* nested classes
+* 入れ子クラス
 * クロージャ
 * ガベージコレクション
 * 演算子のオーバーライド
 * パワフルな組み込み API
-* built-in unit tests
-* built-in JSON serializer/deserializer
-* **optional semicolons**
+* 組み込みユニットテスト
+* 組み込み JSON シリアライザとデシリアライザ
+* **セミコロンの省略可能**
 
 ## Special thanks
 Gravity was supported by a couple of open-source projects. The inspiration for closures comes from the elegant <a href="http://www.lua.org" target="_blank">Lua</a> programming language; specifically from the document <a href="http://www.cs.tufts.edu/~nr/cs257/archive/roberto-ierusalimschy/closures-draft.pdf">Closures in Lua</a>. For fibers, upvalues handling and some parts of the garbage collector, my gratitude goes to <a href="http://journal.stuffwithstuff.com" target="_blank">Bob Nystrom</a> and his excellent <a href="https://github.com/munificent/wren">Wren</a> programming language. A very special thanks should also go to my friend **Andrea Donetti** who helped me debugging and testing various aspects of the language.
@@ -90,7 +90,7 @@ Contributions to Gravity are welcomed and encouraged!<br>
 More information is available in the official [CONTRIBUTING](CONTRIBUTING.md) file.
 * <a href="https://github.com/marcobambini/gravity/issues/new">Open an issue</a>:
 	* if you need help
-	* if you find a bug
+	* バグを見つけたとき
 	* if you have a feature request
 	* to ask a general question
 * <a href="https://github.com/marcobambini/gravity/pulls">Submit a pull request</a>:
