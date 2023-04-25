@@ -74,7 +74,7 @@ func main() {
 * **セミコロンの省略可能**
 
 ## 謝辞
-Gravity はいくつかのオープンソースプロジェクトによる支援を受けています。クロージャーに関する着想はエレガントな <a href="http://www.lua.org" target="_blank">Lua</a> プログラミング言語から得たものです。特に <a href="http://www.cs.tufts.edu/~nr/cs257/archive/roberto-ierusalimschy/closures-draft.pdf">Closures in Lua</a> (Lua におけるクロージャー ) のドキュメントの影響を受けています。 For fibers, upvalues handling and some parts of the garbage collector, my gratitude goes to <a href="http://journal.stuffwithstuff.com" target="_blank">Bob Nystrom</a> and his excellent <a href="https://github.com/munificent/wren">Wren</a> programming language. A very special thanks should also go to my friend **Andrea Donetti** who helped me debugging and testing various aspects of the language.
+Gravity はいくつかのオープンソースプロジェクトによる支援を受けています。クロージャーに関する着想はエレガントな <a href="http://www.lua.org" target="_blank">Lua</a> プログラミング言語から得たものです。特に <a href="http://www.cs.tufts.edu/~nr/cs257/archive/roberto-ierusalimschy/closures-draft.pdf">Closures in Lua</a> (Lua におけるクロージャー ) のドキュメントに影響を受けています。ファイバーにおいて、 upvalue の処理方法とガベージコレクターの一部は、 <a href="http://journal.stuffwithstuff.com" target="_blank">Bob Nystrom</a> (ボブ・ナイストローム) と彼の素晴らしい作品である <a href="https://github.com/munificent/wren">Wren</a> プログラミング言語に深く感謝します。 A very special thanks should also go to my friend **Andrea Donetti** who helped me debugging and testing various aspects of the language.
 
 ## 取扱説明書
 <a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a> (入門講座) ページでは Gravity 言語に関するダウンロードとコンパイル方法について解説しています。より詳しい解説は<a href="http://gravity-lang.org/">言語仕様書</a>にあります。なお、公式 [wiki](https://github.com/marcobambini/gravity/wiki) の用途は関連プロジェクトとツールに関する情報収集です。
