@@ -12,7 +12,7 @@
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
 
 **Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段としてスクラッチから開発しました。
-移植性のあるＣ言語コードの記述してあるため C99 コンパイラが動作するプラットフォームでコンパイルできます。仮想マシン (VM) コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000 行、共有コードは 3,000 行です。 The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
+移植性のあるＣ言語コードの記述してあるため C99 コンパイラが動作するプラットフォームでコンパイルできます。仮想マシン (VM) コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000 行、共有コードは 3,000 行です。コンパイラと仮想マシンを合わせたとしても64-bit システム用の実行可能ファイルの増加サイズは で 200KB 以下です。
 
 ## Gravity コードの様相
 
@@ -80,7 +80,7 @@ Gravity was supported by a couple of open-source projects. The inspiration for c
 The <a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a> page is a guide for downloading and compiling the language. There is also a more extensive <a href="http://gravity-lang.org">language documentation</a>. Official [wiki](https://github.com/marcobambini/gravity/wiki) is used to collect related projects and tools.
 
 ## Gravity の採用事例
-* Gravity は Creo (https://creolabs.com) に組み込まれているコア言語で。
+* Gravity は Creo (https://creolabs.com) に組み込まれているコア言語です。
 * Gravity は Untold ゲームエンジン (https://youtu.be/OGrWq8jpK14?t=58) のスクリプト言語です。
 
 ## コミュニティ
