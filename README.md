@@ -11,7 +11,7 @@
 **Gravity** は手続き型プログラミング、オブジェクト指向プログラミング、関数型プログラミング、およびデータ駆動プログラミングをサポートしています。
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
 
-**Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段としてスクラッチから開発しました。 It is written in portable C code that can be compiled on any platform using a C99 compiler. The VM code is about 4K lines long, the multipass compiler code is about 7K lines and the shared code is about 3K lines long. The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
+**Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段としてスクラッチから開発しました。 It is written in portable C code that can be compiled on any platform using a C99 compiler. VM コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000　行、共有コードは the 3,000 行です。 The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
 
 ## Gravity コードの様相
 
@@ -79,8 +79,8 @@ Gravity was supported by a couple of open-source projects. The inspiration for c
 The <a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a> page is a guide for downloading and compiling the language. There is also a more extensive <a href="http://gravity-lang.org">language documentation</a>. Official [wiki](https://github.com/marcobambini/gravity/wiki) is used to collect related projects and tools.
 
 ## Gravity の採用事例
-* Gravity is the core language built into Creo (https://creolabs.com)
-* Gravity is the scripting language for the Untold game engine (https://youtu.be/OGrWq8jpK14?t=58)
+* Gravity は Creo (https://creolabs.com) に組み込まれているコア言語で。
+* Gravity は Untold ゲームエンジン (https://youtu.be/OGrWq8jpK14?t=58) のスクリプト言語です。
 
 ## コミュニティ
 Seems like a good idea to make a group chat for people to discuss Gravity.<br> [![Join the chat at https://gitter.im/gravity-lang/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gravity-lang/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
@@ -91,10 +91,10 @@ More information is available in the official [CONTRIBUTING](CONTRIBUTING.md) fi
 * <a href="https://github.com/marcobambini/gravity/issues/new">Open an issue</a>:
 	* if you need help
 	* バグを見つけたとき
-	* if you have a feature request
+	* 機能要望があるとき
 	* to ask a general question
 * <a href="https://github.com/marcobambini/gravity/pulls">Submit a pull request</a>:
 	* if you want to contribute
 
 ## ライセンス
-Gravity is available under the permissive MIT license.
+Gravity は寛容な MIT ライセンスで利用可能です。
