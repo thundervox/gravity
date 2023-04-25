@@ -6,13 +6,13 @@
 
 <p>with 日本語化プロジェクト</p>
 
-**Gravity** はパワフル、動的型付け、軽量、組み込み可能なプログラミング言語です。Ｃ言語で記述されていますが外部依存性はありません (stdlib を除く)。 <a href="https://github.com/apple/swift">Swift</a> 風の現代的なシンタックスを採用したクラスベースの並列スクリプト言語です
+**Gravity** はパワフル、動的型付け、軽量、組み込み可能なプログラミング言語です。Ｃ言語で記述されていますが外部ライブラリに関する依存性はありません (stdlib を除く)。 <a href="https://github.com/apple/swift">Swift</a> 風の現代的なシンタックスを採用したクラスベースの並列スクリプト言語です
 
 **Gravity** は手続き型プログラミング、オブジェクト指向プログラミング、関数型プログラミング、およびデータ駆動プログラミングをサポートしています。
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
 
 **Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段として白紙段階から開発しました。
-移植性のあるＣ言語コードで記述してあるため C99 コンパイラが動作するプラットフォームでコンパイルできます。仮想マシン (VM) コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000 行、共有コードは 3,000 行です。コンパイラと仮想マシンを合わせたとしても64-bit システム用の実行可能ファイルの増加サイズは 200KB 以下です。
+移植性のあるＣ言語コードで記述してあるため C99 コンパイラが動作するプラットフォームでコンパイルできます。仮想マシン (VM) コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000 行、共有コードは 3,000 行です。コンパイラと仮想マシンを組み合わせたとしても 64-bit システム用の実行可能ファイルの増加サイズは 200KB 以下です。
 
 ## Gravity コードの様相
 
@@ -84,7 +84,7 @@ Gravity was supported by a couple of open-source projects. The inspiration for c
 * Gravity は Untold ゲームエンジン (https://youtu.be/OGrWq8jpK14?t=58) のスクリプト言語です。
 
 ## コミュニティ
-Seems like a good idea to make a group chat for people to discuss Gravity.<br> [![Join the chat at https://gitter.im/gravity-lang/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gravity-lang/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+Gravity に関する議論を不特定多数が行う上でグループチャットを開設するのは良い発想であると思います。<br> [![Join the chat at https://gitter.im/gravity-lang/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gravity-lang/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## 寄贈
 Gravity 関連の寄贈ついて歓迎と奨励します！<br>
