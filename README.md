@@ -63,7 +63,7 @@ func main() {
 * クラスと継承
 * 高階関数とクラス
 * レキシカルスコープ
-* コルーチン (via fibers)
+* コルーチン (ファイバーによる)
 * 入れ子クラス
 * クロージャ
 * ガベージコレクション
@@ -86,16 +86,16 @@ The <a href="https://marcobambini.github.io/gravity/#/README">Getting Started</a
 ## コミュニティ
 Seems like a good idea to make a group chat for people to discuss Gravity.<br> [![Join the chat at https://gitter.im/gravity-lang/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gravity-lang/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
-## Contributing
+## 寄贈
 Contributions to Gravity are welcomed and encouraged!<br>
-More information is available in the official [CONTRIBUTING](CONTRIBUTING.md) file.
-* <a href="https://github.com/marcobambini/gravity/issues/new">Open an issue</a>:
-	* if you need help
+詳細情報は公式資料である [CONTRIBUTING](CONTRIBUTING.md) ファイルに記載されています。
+* <a href="https://github.com/marcobambini/gravity/issues/new">議論をはじめる</a>:
+	* 援助が必要なとき
 	* バグを見つけたとき
 	* 機能要望があるとき
-	* to ask a general question
-* <a href="https://github.com/marcobambini/gravity/pulls">Submit a pull request</a>:
-	* if you want to contribute
+	* 一般的な質問をするとき
+* <a href="https://github.com/marcobambini/gravity/pulls">プルリクエストの申請</a>:
+	* 寄贈したいとき
 
 ## ライセンス
 Gravity は寛容な MIT ライセンスで利用可能です。
