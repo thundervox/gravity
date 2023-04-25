@@ -11,7 +11,8 @@
 **Gravity** は手続き型プログラミング、オブジェクト指向プログラミング、関数型プログラミング、およびデータ駆動プログラミングをサポートしています。
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
 
-**Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段としてスクラッチから開発しました。 It is written in portable C code that can be compiled on any platform using a C99 compiler. VM コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000　行、共有コードは the 3,000 行です。 The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
+**Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段としてスクラッチから開発しました。
+移植性のあるＣ言語コードの記述してあるため C99 コンパイラが動作するプラットフォームでコンパイルできます。仮想マシン (VM) コードのステップ数は 4,000 行、マルチパスコンパイラ は 7,000 行、共有コードは 3,000 行です。 The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
 
 ## Gravity コードの様相
 
@@ -48,7 +49,7 @@ func main() {
 	// 新規 vector オブジェクトの初期化
 	var v2 = Vector(4,5,6);
 	
-	// cvector オブジェクトで + 関数の呼び出し
+	// vector オブジェクトで + 関数の呼び出し
 	var v3 = v1 + v2;
 	
 	// 文字列 "[1,2,3] + [4,5,6] = [5,7,9]" を返す
