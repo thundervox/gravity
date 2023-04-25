@@ -11,7 +11,7 @@
 **Gravity** は手続き型プログラミング、オブジェクト指向プログラミング、関数型プログラミング、およびデータ駆動プログラミングをサポートしています。
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
 
-**Gravity** has been developed from scratch for the <a href="http://creolabs.com" target="_blank">Creo</a> project in order to offer an easy way to write portable code for the iOS and Android platforms. It is written in portable C code that can be compiled on any platform using a C99 compiler. The VM code is about 4K lines long, the multipass compiler code is about 7K lines and the shared code is about 3K lines long. The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
+**Gravity** は <a href="http://creolabs.com" target="_blank">Creo</a> プロジェクトにおいて iOS および Android プラットフォームで移植性のあるコードを簡単に書く手段としてスクラッチから開発しました。 It is written in portable C code that can be compiled on any platform using a C99 compiler. The VM code is about 4K lines long, the multipass compiler code is about 7K lines and the shared code is about 3K lines long. The compiler and virtual machine combined add less than 200KB to the executable on a 64-bit system.
 
 ## Gravity コードの様相
 
