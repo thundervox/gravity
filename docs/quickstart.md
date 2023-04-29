@@ -1,7 +1,7 @@
 ## 入門講座
 
 ### インストール
-Gravity をインストールするには、以下のコマンドを実行するだけです。 This should make two executables: **gravity**, the compiler itself and **unittest**, the test runner.
+Gravity をインストールするには、以下のコマンドを実行するだけです。これにより、コンパイラ本体である **gravity** とユニットテストランナーである **unittest** の実行可能ファイルが作成されます。
 ```bash
 	git clone https://github.com/marcobambini/gravity.git
 	cd gravity
@@ -19,7 +19,7 @@ Programming is way more enjoyable when you have the right tools. That's why we'v
 * [BBEdit](https://github.com/marcobambini/bbedit-gravity)
 
 ### コマンドライン
-To view all possible flags you can run the command below:
+利用できるフラグを表示するには以下のコマンドを実行します。
 ```bash
 	./gravity --help
 ```
@@ -34,7 +34,7 @@ gravity 形式のソースファイルを json 形式の実行可能ファイル
 	./gravity -x exec.json
 ```
 
-To directly execute a gravity file (without first serializing it to json):
+そのまま gravity 形式のファイルを実行するには (json 形式への初回シリアライゼーション処理をしない)、
 ```bash
 	./gravity myfile.gravity
 ```
