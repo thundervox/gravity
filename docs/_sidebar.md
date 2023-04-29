@@ -3,42 +3,42 @@
   * [Overview](README.md)
   * [Getting Started](quickstart.md)
 
-* LANGUAGE GUIDE
+* 言語仕様
 
-  * [Syntax](syntax.md)
-  * [Operators](operators.md)
-  * [Types](types.md)
-  * [Object](object.md)
-  * [Int](int.md)
-  * [Float](float.md)
-  * [String](string.md)
-  * [Bool](bool.md)
-  * [Null](null.md)
-  * [List](list.md)
-  * [Map](map.md)
-  * [Enum](enum.md)
-  * [Range](range.md)
-  * [Function](func.md)
-  * [Closure](closure.md)
-  * [Class](class.md)
-  * [Control Flow](controlflow.md)
-  * [Loops](loop.md)
-  * [Fibers](fiber.md)
+  * [文法](syntax.md)
+  * [演算子](operators.md)
+  * [型](types.md)
+  * [オブジェクト](object.md)
+  * [整数](int.md)
+  * [浮動小数点数](float.md)
+  * [文字列](string.md)
+  * [ブール](bool.md)
+  * [ナル](null.md)
+  * [リスト](list.md)
+  * [マップ](map.md)
+  * [列挙体](enum.md)
+  * [レンジ](range.md)
+  * [関数](func.md)
+  * [クロージャー](closure.md)
+  * [クラス](class.md)
+  * [制御フロー](controlflow.md)
+  * [ループ](loop.md)
+  * [ファイバー](fiber.md)
   
-* OPTIONALS
+* オプション
 
-  * [System class](system.md)
-  * [Math class](math.md)
-  * [File class](file.md)
-  * [ENV class](env.md)
+  * [System クラス](system.md)
+  * [Math クラス](math.md)
+  * [File クラス](file.md)
+  * [ENV クラス](env.md)
 
-* ADVANCED
+* 応用
 
-  * [Embedding](embedding.md)
-  * [Extending](extending.md)
+  * [組み込み](embedding.md)
+  * [拡張](extending.md)
   * [Introspection](introspection.md)
-  * [Unit test](unittest.md)
-  * [Contributing](contrib.md)
+  * [ユニットテスト](unittest.md)
+  * [寄贈方法](contrib.md)
 
 
 
