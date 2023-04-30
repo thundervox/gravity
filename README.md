@@ -6,7 +6,7 @@
 
 <p>with 日本語化プロジェクト</p>
 
-**Gravity** はパワフル、動的型付け、軽量、組み込み可能なプログラミング言語です。Ｃ言語で記述されていますが外部ライブラリに関する依存性はありません (stdlib を除く)。 <a href="https://github.com/apple/swift">Swift</a> 風の現代的なシンタックスを採用したクラスベースの並列スクリプト言語です
+**Gravity** はパワフル、動的型付け、軽量、組み込み可能なプログラミング言語です。Ｃ言語で記述されていますが外部ライブラリの依存性はありません (stdlib を除く)。 <a href="https://github.com/apple/swift">Swift</a> 風の現代的なシンタックスを採用したクラスベースの並列スクリプト言語です
 
 **Gravity** は手続き型プログラミング、オブジェクト指向プログラミング、関数型プログラミング、およびデータ駆動プログラミングをサポートしています。
 特別な組み込みメソッドにより、プロトタイプベースのプログラミング言語としても使えます。
@@ -87,7 +87,7 @@ Gravity はいくつかのオープンソースプロジェクトによる支援
 Gravity に関する議論を不特定多数が行う上でグループチャットを開設するのは良い発想であると思います。<br> [![Join the chat at https://gitter.im/gravity-lang/](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/gravity-lang/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## 寄贈
-Gravity 関連の寄贈ついて歓迎と奨励します！<br>
+Gravity 関連の寄贈は歓迎と奨励します！<br>
 詳細情報は公式資料である [CONTRIBUTING](CONTRIBUTING.md) ファイルに記載されています。
 * <a href="https://github.com/marcobambini/gravity/issues/new">議論をはじめる</a>:
 	* 援助が必要なとき
