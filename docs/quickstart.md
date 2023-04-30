@@ -8,8 +8,7 @@ Gravity をインストールするには、以下のコマンドを実行する
 	make
 ```
 
-> If you want to access the gravity compiler globally just add it to your **PATH**.  
-You can also use the **Xcode** project to create the gravity or unittest executables.
+> システム全体で Gravity コンパイラを起動可能にしたいなら **PATH** を通してください。なお、 **Xcode** プロジェクトを使用しても gravity と unittest の実行可能ファイルを作成できます。
 
 ### コードエディタの設定
 Programming is way more enjoyable when you have the right tools. That's why we've equipped several code editors with Gravity support. Just click on your favourite editor and configure it accordingly:
@@ -39,7 +38,7 @@ gravity 形式のソースファイルを json 形式の実行可能ファイル
 	./gravity myfile.gravity
 ```
 ### ユニットテスト
-You can run [unit tests](unittest.md) by providing a path to a folder containing all test files:
+[ユニットテスト](unittest.md)はテストファイル一式があるフォルダのパスを指定することで実行できます。
 ```bash
 	./gravity -t path_to_test_folder
 ```
