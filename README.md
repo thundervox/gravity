@@ -1,7 +1,7 @@
 [![Build Status](https://travis-ci.com/marcobambini/gravity.svg?branch=master)](https://travis-ci.com/marcobambini/gravity)
 
 <p align="center" >
-<img src="https://raw.githubusercontent.com/marcobambini/gravity/master/docs/assets/images/logo-gravity.png" height="74px" alt="Gravity Programming Language" title="Gravity Programming Language">
+<img src="https://raw.githubusercontent.com/marcobambini/gravity/master/docs/assets/images/logo-gravity.png" height="74px" alt="Gravity プログラミング言語" title="Gravity プログラミング言語">
 </p>
 
 <p>with 日本語化プロジェクト</p>
@@ -59,7 +59,7 @@ func main() {
 
 ## 主要機能
 * マルチパスコンパイラ
-* 動的型付け
+* 動的型付け (マニュフェスト型付けは近日公開予定)
 * クラスと継承
 * 高階関数とクラス
 * レキシカルスコープ
