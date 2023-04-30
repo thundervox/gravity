@@ -1,7 +1,7 @@
-* INTRODUCTION
+* はじめに
 
-  * [Overview](README.md)
-  * [Getting Started](quickstart.md)
+  * [概要](README.md)
+  * [導入方法](quickstart.md)
 
 * 言語仕様
 
@@ -36,7 +36,7 @@
 
   * [組み込み](embedding.md)
   * [拡張](extending.md)
-  * [Introspection](introspection.md)
+  * [イントロスペクション](introspection.md)
   * [ユニットテスト](unittest.md)
   * [寄贈方法](contrib.md)
 
