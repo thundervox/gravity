@@ -42,12 +42,12 @@ gravity 形式のソースファイルを json 形式の実行可能ファイル
 ```bash
 	./gravity -t path_to_test_folder
 ```
-This should produce output like:
+これにより、以下のような処理結果となります。
 	<img src="assets/images/unittest.png" width="666px" height="466px">
 
 			
 ### Hello World
-A simple <strong>Hello World</strong> code in Gravity looks like:
+Gravity において単純な <strong>Hello World</strong> のコードは以下のとおりです。
 ```swift
 	func main() {
 		System.print("Hello World!")
