@@ -33,7 +33,7 @@ gravity 形式のソースファイルを json 形式の実行可能ファイル
 	./gravity -x exec.json
 ```
 
-そのまま gravity 形式のファイルを実行するには (json 形式への初回シリアライゼーション処理をしない)、
+gravity 形式のままファイルを実行するには (json 形式への初回シリアライゼーション処理をしない)、
 ```bash
 	./gravity myfile.gravity
 ```
