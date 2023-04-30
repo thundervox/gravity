@@ -1,4 +1,4 @@
-## 入門講座
+## 導入方法
 
 ### インストール
 Gravity をインストールするには、以下のコマンドを実行するだけです。これにより、コンパイラ本体である **gravity** とユニットテストランナーである **unittest** の実行可能ファイルが作成されます。
@@ -11,7 +11,7 @@ Gravity をインストールするには、以下のコマンドを実行する
 > システム全体で Gravity コンパイラを起動可能にしたいなら **PATH** を通してください。なお、 **Xcode** プロジェクトを使用しても gravity と unittest の実行可能ファイルを作成できます。
 
 ### コードエディタの設定
-良いツールがあるとプログラミングはもっと楽しいものになります。 その関係で Gravity 対応のコードエディタを揃えました。 Just click on your favourite editor and configure it accordingly:
+良いツールがあるとプログラミングはもっと楽しいものになります。 その関係で Gravity 対応のコードエディタを揃えました。以下の中からお好みコードエディタを選択し、表示された手順書に従い設定をしてください。
 * [Visual Studio Code](https://github.com/Dohxis/vscode-gravity)
 * [Atom](https://github.com/Tribex/atom-language-gravity)
 * [vim](https://github.com/hallzy/gravity.vim)
