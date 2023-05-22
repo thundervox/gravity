@@ -1,15 +1,15 @@
-## Operators
+## 演算子
 
 An operator is a special symbol or phrase that you use to check, change, or combine values. For example, the addition operator (+) adds two numbers, as in **var i = 1 + 2**, and the logical AND operator (&&) combines two Boolean values, as in **if (flag1 && flag2)**.
 <br><br>
 Gravity supports most standard C operators and improves several capabilities to eliminate common coding errors. The assignment operator (=) does not return a value, to prevent it from being mistakenly used when the equal to operator (==) is intended. Gravity also provides two [range](types.md) operators as a shortcut for expressing a range of values.
 			
-### Arithmetic Operators
-* Addition (+)
-* Subtraction (-)
-* Multiplication (*)
-* Division (/)
-* Remainder (%)
+### 算術演算子
+* 加算 (+)
+* 減算 (-)
+* 乗算 (*)
+* 除算 (/)
+* 余剰 (%)
 
 ```swift
 	var n1 = 1 + 2        // equals 3
@@ -19,7 +19,7 @@ Gravity supports most standard C operators and improves several capabilities to 
 	var n5 = 9 % 4        // equals 1
 ```
 
-### Assignment Operator
+### 代入演算子
 The assignment operator = initialize or update a value:
 ```swift
 	var a = 50;       // a = 50
@@ -28,7 +28,7 @@ The assignment operator = initialize or update a value:
 ```
 Please note that contrary to many other programming languages, the assignment operator has no side effect, it means that it does not return any value.
 
-### Comparison Operators
+### 比較演算子
 The comparison operators return a Bool value to indicate whether or not the statement is true:
 
 * Equal (==)
@@ -54,7 +54,7 @@ The comparison operators return a Bool value to indicate whether or not the stat
 ```
 Gravity performs some conversions at runtime, so 1 == "1" but not 1 === '1'.
 
-### Logical Operators
+### 論理演算子
 The comparison operators return a Bool value to indicate whether or not the statement is true:
 
 * Logical NOT (!)
@@ -69,7 +69,7 @@ The comparison operators return a Bool value to indicate whether or not the stat
 ```
 In order to improve code readability the reserved keywords **not, and, or** has been introduces as an alisas to logical operators.
 
-### Bitwise Operators
+### ビット演算子
 
 			
 * Bitwise shift left (<<)
