@@ -1,19 +1,19 @@
 ## ENV
-ENV is a class than enables to interact with environmental variables
+ENV は環境変数との連携を可能にするクラスです。
 
-### Class methods
+### クラスメソッド
 ```swift
-// read an env variable
+// 環境変数の読み取り
 var value = ENV.get("VAR_NAME")
 
-// write an env value
+// 環境変数の書き込み
 ENV.set("VAR_KEY", "VAR_VALUE")
 
-// list all env variables
+// 環境変数全体のリストを取得
 var list = ENV.keys()
 ```
 
-### Class Constants
+### クラス定数
 ```swift
 var max_arg = ENV.argc - 1 
 var my_arg = ENV.argv[max_arg]
